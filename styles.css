@@ -1,4 +1,4 @@
-/* This following declarations will style the Hero section*/
+/* The following declarations will style the Hero section*/
 .hero{
     background: #1F2937;
     display: flex;
@@ -57,3 +57,6 @@
 .media-object-content{
     flex: 1;
 }
+
+/*The following declarations will style the information section*/
+
