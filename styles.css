@@ -58,7 +58,7 @@
     flex: 1;
 }
 
-/*The following declarations will style the information section*/
+/*The following declarations will style the Information section*/
 
 .info{
     display: flex;
@@ -72,6 +72,7 @@
     justify-content: center;
     width: 70%;
     gap: 50px;
+    margin-bottom: 80px;
 }
 
 .info-head{
@@ -89,4 +90,31 @@
 
 .images-info{
     border-radius: 20px;
+}
+
+/*The following declarations will style the Quote section*/
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.quote-main{
+    width: 50%;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-top: 30px;
+}
+
+.quote-author{
+    width: 50%;
+    font-size: 25px;
+    text-align: right;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 30px
 }
