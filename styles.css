@@ -1,0 +1,59 @@
+/* This following declarations will style the Hero section*/
+.hero{
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.hero ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.hero a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.media-object{
+    display: flex;
+    align-items: flex-start;
+    width: 70%;
+}
+
+.media-object-content p:nth-child(1){
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.media-object-content p:nth-child(2){
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.media-object-content button{
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px 32px;
+}
+
+.media-object-content{
+    flex: 1;
+}
