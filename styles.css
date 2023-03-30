@@ -124,6 +124,7 @@
 .call-container{
     display: flex;
     justify-content: center;
+    flex: 1;
 }
 
 .call{
@@ -159,4 +160,19 @@
 
 .call div{
     flex: 1;
+}
+
+/*The following declarations will style the footer section*/
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    font-size: 20px;
+    background: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 15px 0;
 }
